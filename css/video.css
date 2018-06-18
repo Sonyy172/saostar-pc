@@ -186,7 +186,7 @@
     background: rgba(0, 0, 0, 0.5);
     border-radius: 100%;
     border: 2px solid #fff;
-    width: 65px;
+    width: 60px;
     height: 65px;
     text-align: center;
     line-height: 65px;
@@ -214,6 +214,9 @@
 }
 .title-video h2{
 	margin-bottom: 10px;
+}
+.title-video:hover {
+    color: #ed1c24 !important;;
 }
 .sapo-video {
 	font-family: Arial;
@@ -521,6 +524,9 @@ VIDEO SINGLE
     color: #ffffff;
     line-height: 50px;
 }
+.box-video .box-heading .cate-name:hover {
+    opacity: 0.7;
+}
 .box-video .box-heading .cate-name:before {
     content: '\f04b';
     font-family: 'FontAwesome';
@@ -538,6 +544,10 @@ VIDEO SINGLE
 .viewmore-new {
     color: #ffffff;
     font-size: 13px;
+    margin-right: 20px;
+}
+.viewmore-new:hover{
+    color: #ed1c24;
 }
 .viewmore-new:after {
     content: '\f178';
@@ -547,5 +557,74 @@ VIDEO SINGLE
     height: 50px;
     line-height: 50px;
 }
+.box-content {
+    padding: 20px;
+    padding-bottom: 0px;
+}
+.box-content .feature {
+    width: 550px;
+}
+.box-content .list {
+    width: 370px;
+    padding-right: 20px;
+}
+.box-heading {
+    background-image: linear-gradient(85deg, #3d3d3d, #505050);
+}
+.box-video .detail-info {
+    border-bottom: none;
+}
+.box-video .feature .title-video {
+    color: #ffffff;
+}
+.box-video .list .title-video {
+    color: #d8d8d8;
+    font-size: 14px;
+    line-height: 1.29;
+}
+.box-video .info-video {
+    background-color: unset;
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+.box-video .category a {
+    color: #9b9b9b;
+}
+.box-video .time-ago {
+    color: #9b9b9b;
+}
+.box-video .item-video {
+    margin-bottom: 0px;
+}
+.box-video .list .item-video {
+    border-bottom: 1px solid #4a4a4a;
+    padding-bottom: 10px;
+}
+.box-video .list .item-video:not(:first-child) {
+    padding-top: 10px;
+}
+.box-video .list .item-video:last-child{
+    border-bottom: none;
+}
+.box-video .list .thumb-video img {
+    width: 170px;
+}
+.box-video .list .thumb-video:after {
+    content: none;
+}
+.box-video .list .info-video {
+    padding: 0px;
+    margin-left: 20px;
+}
+.box-video .list .swiper-scrollbar {
+    background: #4a4a4a;
+}
+.box-video .list .swiper-scrollbar .swiper-scrollbar-drag {
+    background: #c6c6c6;
+}
+
+
+
+
 
 

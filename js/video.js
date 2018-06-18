@@ -24,7 +24,19 @@ $(document).ready(function(){
         nextButton: '.sns-next'
     });
 
+    $('.box-video .list').css("height", "465px");
 
+    var boxvideo = new Swiper('.box-video .list',{
+        direction: 'vertical',
+        slidesPerView: 'auto',
+        // spaceBetween: 20,
+        freeMode: true,
+        scrollbar: '.swiper-scrollbar',
+        scrollbarHide: false,
+        mousewheelControl: true,
+        autoHeight: true,
+        scrollbarDraggable: true
+    });
 });
 
 $(document).click(function(event){
